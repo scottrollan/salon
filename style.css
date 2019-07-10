@@ -1,17 +1,22 @@
 body {
     font-family: 'Exo 2', sans-serif;
-    padding: 3vw;
+    padding: 0 8vw;
 }
 
+
 #topDiv {
+    margin: 3vh 0 20vh 0;
+}
+
+#titleDiv {
     float: left;
-    margin-bottom: 2vh;
+    margin-bottom: 8vh;
+    color: whitesmoke;
 }
 
 #textLink {
     text-align: center;
     padding: 6.5px;
-    border: solid .8px #777777;
     border-radius: 4px;    
 }
 
@@ -21,8 +26,16 @@ body {
     background: whitesmoke;
     height: 40px;
     width: 150px;
+    border: solid .8px #777777;
     margin: 0 0 4vh 3vw;
 }
+
+#topDiv::after,
 #scheduleLink::after {
     clear: both;
+}
+
+.omLogo {
+    width: 30%;
+    float: left;
 }
