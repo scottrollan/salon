@@ -1,33 +1,39 @@
 body {
     font-family: 'Exo 2', sans-serif;
-    padding: 0 8vw;
+    padding: 0 15vw;
 }
-
 
 #topDiv {
     margin: 3vh 0 20vh 0;
 }
 
-#titleDiv {
-    float: left;
-    margin-bottom: 8vh;
-    color: whitesmoke;
-}
-
+#textLinkShort,
 #textLink {
+    float: right;
     text-align: center;
     padding: 6.5px;
     border-radius: 4px;    
 }
 
+#emailLink,
+#emailLinkShort {
+    float: left;
+}
+
 #textLink,
-#emailLink {
-    float: right;
+#textLinkShort,
+#emailLink,
+#emailLinkShort {
     background: whitesmoke;
     height: 40px;
     width: 150px;
     border: solid .8px #777777;
-    margin: 0 0 4vh 3vw;
+    margin: 0 0 4vh 0;
+}
+
+#textLinkShort,
+#emailLinkShort {
+    visibility: hidden;
 }
 
 #topDiv::after,
@@ -35,7 +41,41 @@ body {
     clear: both;
 }
 
+.jumbotron {
+    margin: 0;
+}
+
 .omLogo {
     width: 30%;
     float: left;
+}
+
+#neuma,
+#noBadStuff {
+    width: 40vw;
+}
+
+.d-flex {
+    margin: 5vh 0;
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        padding: 0 6vw;
+    }
+
+    #textLink,
+    #emailLink {
+    display: none;
+    }
+
+    #textLinkShort,
+    #emailLinkShort {
+        visibility: visible;
+    }
+    
+    .omLogo {
+        float: none;
+        width: 95%;
+    }
 }
