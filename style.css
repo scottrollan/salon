@@ -8,12 +8,19 @@ body {
     margin-bottom: 2vh;
 }
 
+#textLink {
+    text-align: center;
+    padding: 6.5px;
+    border: solid .5px #777777;
+    border-radius: 4px;    
+}
+
 #textLink,
 #emailLink {
     float: right;
     background: whitesmoke;
-    margin: 0 0 2vh 3vw;
-
+    width: 150px;
+    margin: 0 0 4vh 3vw;
 }
 #scheduleLink::after {
     clear: both;
