@@ -11,7 +11,7 @@ body {
 #textLink {
     text-align: center;
     padding: 6.5px;
-    border: solid .5px #777777;
+    border: solid .8px #777777;
     border-radius: 4px;    
 }
 
@@ -19,6 +19,7 @@ body {
 #emailLink {
     float: right;
     background: whitesmoke;
+    height: 40px;
     width: 150px;
     margin: 0 0 4vh 3vw;
 }
