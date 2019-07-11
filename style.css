@@ -1,6 +1,6 @@
 body {
     font-family: 'Exo 2', sans-serif;
-    padding: 0 15vw;
+    padding: 0 15vw 3vh 15vw;
 }
 
 #topDiv {
@@ -50,6 +50,10 @@ body {
     float: left;
 }
 
+.lead {
+    margin-left: 30%;
+}
+
 #neuma,
 #noBadStuff {
     width: 40vw;
@@ -76,6 +80,10 @@ body {
     
     .omLogo {
         float: none;
-        width: 95%;
+        width: 80%;
+    }
+    
+    .lead {
+        margin-left: inherit;
     }
 }
