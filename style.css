@@ -3,6 +3,22 @@ body {
     padding: 0 15vw 3vh 15vw;
 }
 
+.navbar {
+    min-height: 80px;
+}
+
+.navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+
 #topDiv {
     margin: 3vh 0 12vh 0;
 }
@@ -101,7 +117,21 @@ body {
         width: 80%;
     }
     
+    .announce {
+        color: gray !important;
+        font-size: x-large;
+        text-decoration: none;
+    }
+    
     .lead {
         margin-left: inherit;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
     }
 }
