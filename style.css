@@ -45,6 +45,9 @@ body {
     margin: 0;
 }
 
+#jHeader {
+    padding-bottom: 1vh;
+}
 .omLogo {
     width: 30%;
     float: left;
