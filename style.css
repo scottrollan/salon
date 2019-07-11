@@ -40,7 +40,11 @@ body {
 #scheduleLink::after {
     clear: both;
 }
-
+.announce {
+    color: whitesmoke !important;
+    font-size: x-large;
+    text-decoration: none;
+}
 .jumbotron {
     margin: 0;
     padding-right: 4vw;
@@ -64,9 +68,11 @@ body {
 
 #neuma,
 #noBadStuff {
-    width: 40vw;
+    width: 30vw;
 }
-
+.directionPage {
+    margin: 0;
+}
 .d-flex {
     margin-bottom: 5vh;
 }
@@ -85,7 +91,11 @@ body {
     #emailLinkShort {
         visibility: visible;
     }
-    
+
+    #neuma,
+    #noBadStuff {
+        width: 60vw;
+    }
     .omLogo {
         float: none;
         width: 80%;
