@@ -4,7 +4,7 @@ body {
 }
 
 #topDiv {
-    margin: 3vh 0 20vh 0;
+    margin: 3vh 0 12vh 0;
 }
 
 #textLinkShort,
@@ -28,7 +28,7 @@ body {
     height: 40px;
     width: 150px;
     border: solid .8px #777777;
-    margin: 0 0 4vh 0;
+    margin: 0 0 2vh 0;
 }
 
 #textLinkShort,
@@ -43,6 +43,7 @@ body {
 
 .jumbotron {
     margin: 0;
+    padding-right: 4vw;
 }
 
 #jHeader {
@@ -55,6 +56,10 @@ body {
 
 .lead {
     margin-left: 30%;
+}
+
+#signature {
+    font-size: x-large;
 }
 
 #neuma,
