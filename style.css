@@ -22,7 +22,11 @@ body {
 }
 
 #topDiv {
-    margin: 3vh 0 12vh 0;
+    margin: 3vh 0;
+}
+
+br {
+    clear: both;
 }
 
 #textLinkShort,
@@ -116,6 +120,8 @@ body {
     #emailLinkShort {
         visibility: visible;
         width: 25vw;
+        height: auto;
+        font-size: 5vw;
     }
 
     #neuma,
@@ -128,7 +134,7 @@ body {
     }
     
     .announce {
-        color: gray !important;
+        color: #222222 !important;
         font-size: xx-large;
         text-decoration: none;
     }
