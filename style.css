@@ -88,9 +88,8 @@ br {
     font-size: x-large;
 }
 
-#neuma,
-#noBadStuff {
-    width: 30vw;
+#solaLogo {
+    width: 15vw;
 }
 .directionPage {
     margin: 0;
@@ -124,13 +123,8 @@ br {
         font-size: 5vw;
     }
 
-    #neuma,
-    #noBadStuff {
-        width: 60vw;
-    }
-    .omLogo {
-        float: none;
-        width: 80%;
+    #solaLogo {
+        width: 40vw;
     }
     
     .announce {
