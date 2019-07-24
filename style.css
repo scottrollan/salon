@@ -101,21 +101,21 @@ br {
 }
 
 .read-more {
-  color: #c4122f;
+  background: #c4122f;
   box-shadow: none;
   border: none;
   outline: none;
   cursor: pointer;
-  background: #ddd;
+  color: whitesmoke;
   padding: .5vw;
   font-weight: 700;
   margin-top: 1vw;
   transform: translateX(40vw);
 }
-  .read-more:hover {
-        background: #777777;
-        color: cadetblue;
-    }
+.read-more:hover {
+    background: #777777;
+    color: cadetblue;
+}
 
 .omLogo {
     width: 30%;
@@ -174,7 +174,7 @@ br {
         visibility: visible;
         width: 25vw;
         height: auto;
-        font-size: 5vw;
+        font-size: 4vw;
     }
 
     #solaLogo {
