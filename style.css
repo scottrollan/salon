@@ -101,6 +101,7 @@ br {
 }
 
 .read-more {
+  color: #c4122f;
   box-shadow: none;
   border: none;
   outline: none;
@@ -109,10 +110,11 @@ br {
   padding: .5vw;
   font-weight: 700;
   margin-top: 1vw;
-  transform: translate(-150%, 43%);
+  transform: translateX(40vw);
 }
   .read-more:hover {
-        background: #444;
+        background: #777777;
+        color: cadetblue;
     }
 
 .omLogo {
@@ -144,6 +146,15 @@ br {
 @media only screen and (max-width: 1255px) {
     .navbar-brand {
         display: none;
+    }
+    .appointmentWrapper{
+        text-align: center;
+    }
+    .appointmentPanel {
+        margin: 2vh 0;
+        position: inherit;
+        display: inline-block;
+        z-index: 1000 !important;
     }
 }
 @media only screen and (max-width: 1024px) {
