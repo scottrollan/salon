@@ -47,20 +47,16 @@ br {
     clear: both;
 }
 
-#textLinkShort,
 #textLink {
     float: right;
 }
 
-#emailLink,
-#emailLinkShort {
+#emailLink {
     float: left;
 }
 
 #textLink,
-#textLinkShort,
-#emailLink,
-#emailLinkShort {
+#emailLink {
     text-align: center;
     padding: 6.5px;
     border-radius: 4px;
@@ -70,11 +66,6 @@ br {
     color: #777777;    
     border: solid .8px #777777;
     margin: 0 0 2vh 0;
-}
-
-#textLinkShort,
-#emailLinkShort {
-    visibility: hidden;
 }
 
 #topDiv::after,
@@ -163,18 +154,6 @@ br {
     }
     .navbar-brand {
         display: inherit;
-    }
-    #textLink,
-    #emailLink {
-    display: none;
-    }
-
-    #textLinkShort,
-    #emailLinkShort {
-        visibility: visible;
-        width: 25vw;
-        height: auto;
-        font-size: 4vw;
     }
 
     #solaLogo {
