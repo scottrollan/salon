@@ -1,8 +1,6 @@
 body {
     font-family: 'Exo 2', sans-serif;
     padding: 0 15vw 3vh 15vw;
-    /* background: #3399ff; */
-    /* background: cadetblue; */
     background: #444444;
     color: #777777;
 }
@@ -76,7 +74,7 @@ br {
     clear: both;
 }
 .announce {
-    color: cadetblue !important;
+    color: #2996cc !important;
     font-size: x-large;
     text-decoration: none;
 }
@@ -86,6 +84,10 @@ br {
 .jumbotron {
     padding: 2vh 4vw 2vh 0;
     overflow: hidden;
+}
+#myth {
+    color: #2996cc !important;
+    font-size: 1.75vw;
 }
 .jumbotron,
 .carousel {
@@ -111,7 +113,7 @@ br {
 }
 .read-more:hover {
     background: #777777;
-    color: cadetblue;
+    color: #2996cc;
 }
 
 .omLogo {
@@ -172,12 +174,17 @@ br {
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
-}
-    .announce {
+    }
+    .headline {
+        font-size: 5.5vw;
+    }
+    .address {
         font-size: xx-large;
         text-decoration: none;
     }
-    
+    #myth {
+        font-size: 3vw;
+    }
     .read-more {
         transform: none;
     }
