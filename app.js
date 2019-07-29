@@ -1,7 +1,8 @@
 $(function(){
+
     readMore( $('.spoiler'), 4);
 
-function readMore(jObj, lineNum) {
+  function readMore(jObj, lineNum) {
   if ( isNaN(lineNum) ) {
     lineNum = 4;
   }
@@ -34,5 +35,18 @@ function ReadMore(_jObj, lineNum) {
   });
 
 }
-  
-  });
+ 
+$("#openMap").click(function() {
+  $("#map").show();
+  $("#openMap").hide();
+  $("#closeMap").show();
+});
+
+$("#closeMap").click(function() {
+  $("#map").hide();
+  $("#openMap").show();
+  $("#closeMap").hide();
+});
+
+});
+

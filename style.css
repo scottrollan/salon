@@ -14,6 +14,7 @@ body {
     height: 80px;
     line-height: 80px;
     font-size: 30px !important;
+    color: #007bff !important;
 }
 
 .navbar-toggle {
@@ -74,19 +75,22 @@ br {
     clear: both;
 }
 .announce {
-    color: #2996cc !important;
+    color: whitesmoke !important;
     font-size: x-large;
     text-decoration: none;
 }
-.address {
-    color: #c4122f;
+
+#map,
+#closeMap {
+    display: none;
 }
+
 .jumbotron {
     padding: 2vh 4vw 2vh 0;
     overflow: hidden;
 }
 #myth {
-    color: #2996cc !important;
+    color: #007bff !important;
     font-size: 1.75vw;
 }
 .jumbotron,
