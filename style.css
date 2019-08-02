@@ -148,8 +148,7 @@ br {
 }
 
 @media only screen and (max-width: 1255px) {
-    .navbar-brand {
-        display: none;
+            display: none;
     }
     .appointmentWrapper{
         text-align: center;
@@ -165,10 +164,8 @@ br {
 
     #textLink,
     #emailLink {
-        font-size: 32px;
         margin: 2vh 0;
         width: 40vw;
-        height: auto;
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
