@@ -2,7 +2,8 @@ body {
     font-family: 'Exo 2', sans-serif;
     padding: 0 15vw 3vh 15vw;
     background: #4c4c4c;
-    color: #777777;
+    background-image: linear-gradient(to bottom right,#4c4c4c, #7b7b7b);
+    min-height: 100vh;
 }
 .navbar {
     min-height: 80px;
@@ -155,10 +156,21 @@ br {
     }
     .appointmentPanel {
         margin: 2vh 0;
+        width: 70vw;
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
     }
+
+    #textLink,
+    #emailLink {
+        margin: 2vh 0;
+        width: 40vw;
+        position: inherit;
+        display: inline-block;
+        z-index: 1000 !important;
+    }
+
 }
 @media only screen and (max-width: 1024px) {
     body {
@@ -172,13 +184,6 @@ br {
         width: 40vw;
     }
 
-    #textLink,
-    #emailLink {
-        margin: 2vh 0;
-        position: inherit;
-        display: inline-block;
-        z-index: 1000 !important;
-    }
     .headline {
         font-size: 5.5vw;
     }
