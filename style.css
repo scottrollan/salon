@@ -155,6 +155,7 @@ br {
         text-align: center;
     }
     .appointmentPanel {
+        font-size: 32px;
         margin: 2vh 0;
         width: 70vw;
         position: inherit;
@@ -164,8 +165,10 @@ br {
 
     #textLink,
     #emailLink {
+        font-size: 32px;
         margin: 2vh 0;
         width: 40vw;
+        height: auto;
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
