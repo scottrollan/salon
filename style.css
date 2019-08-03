@@ -8,6 +8,7 @@ body {
 .navbar {
     min-height: 80px;
     font-size: 30px !important;
+    width: 70vw;
 }
 
 .navbar-brand {
@@ -147,9 +148,11 @@ br {
     margin-bottom: 5vh;
 }
 
-@media only screen and (max-width: 1255px) {
-            display: none;
-    }
+@media only screen and (max-width: 1055px) {
+   
+    /* .navbar-brand {
+        display: none;
+    } */
     .appointmentWrapper{
         text-align: center;
     }
@@ -164,8 +167,10 @@ br {
 
     #textLink,
     #emailLink {
+        font-size: 28px;
         margin: 2vh 0;
         width: 40vw;
+        height: auto;
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
@@ -176,6 +181,10 @@ br {
     body {
         padding: 0 4vw;
     }
+    .navbar {
+        width: 90vw;
+    }
+    
     .navbar-brand {
         display: inherit;
     }
