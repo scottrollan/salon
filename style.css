@@ -88,6 +88,13 @@ br {
     display: none;
 }
 
+#openMap,
+#closeMap {
+    font-size: xx-large;
+    width: 20vw;
+    height: auto;
+}
+
 .jumbotron {
     padding: 2vh 4vw 2vh 0;
     overflow: hidden;
@@ -166,17 +173,25 @@ br {
         z-index: 1000 !important;
     }
 
-    #openMap,
-    #closeMap,
+
     #textLink,
     #emailLink {
         font-size: xx-large;
         margin: 2vh 0;
-        width: 40vw;
-        height: auto;
+        width: 50vw;
+        height: 10vh;
         position: inherit;
-        /* display: inline-block; */
+        display: inline-block;
         z-index: 1000 !important;
+    }
+
+    #openMap,
+    #closeMap {
+        font-size: xx-large;
+        margin: 2vh 0;
+        width: 50vw;
+        height: 10vh;
+        position: inherit;
     }
 
 }
