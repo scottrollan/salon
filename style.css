@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
 }
 .navbar {
+    font-size: 28px;
     min-height: 80px;
     width: 70vw;
 }
@@ -219,6 +220,10 @@ br {
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
+    }
+    .servicesBtn {
+        font-size: 4vh;
+        width: 50vw;
     }
 
     #openMap,
