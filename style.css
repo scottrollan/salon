@@ -1,13 +1,12 @@
 body {
     font-family: 'Exo 2', sans-serif;
-    padding: 0 15vw 3vh 15vw;
+    padding: 2vh 15vw 3vh 15vw;
     background: #4c4c4c;
     background-image: linear-gradient(to bottom right,#4c4c4c, #7b7b7b);
     min-height: 100vh;
 }
 .navbar {
     min-height: 80px;
-    font-size: 30px !important;
     width: 70vw;
 }
 
@@ -152,6 +151,16 @@ br {
     margin-bottom: 5vh;
 }
 
+.servicesBtn {
+    width: 250px;
+    margin: 2vh 3vw;
+    text-transform: uppercase;
+    padding: 1.2vh 3vw;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: .3vw;
+}
+
 /* STYLES FOR LOADING ICON */
 .loader {
     border: 16px solid #ffffff;
@@ -177,8 +186,15 @@ br {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-
-@media only screen and (max-width: 1055px) {
+/******************************************/
+@media only screen and (max-width: 992px) {
+    /* .navbar {
+        min-height: 10vw;
+    } */
+    .navbar-brand {
+        /* line-height: 8vw; */
+        font-size: 7vw !important;
+    }
 
     .appointmentWrapper{
         text-align: center;
