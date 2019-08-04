@@ -64,7 +64,8 @@ br {
     padding: 6.5px;
     border-radius: 4px;
     background: whitesmoke;
-    height: 40px;
+    font-size: large;
+    height: auto;
     width: 150px;
     color: #c4122f;    
     border: solid .8px #c4122f;
@@ -157,7 +158,7 @@ br {
         text-align: center;
     }
     .appointmentPanel {
-        font-size: 32px;
+        font-size: xx-large;
         margin: 2vh 0;
         width: 70vw;
         position: inherit;
@@ -165,14 +166,16 @@ br {
         z-index: 1000 !important;
     }
 
+    #openMap,
+    #closeMap,
     #textLink,
     #emailLink {
-        font-size: 28px;
+        font-size: xx-large;
         margin: 2vh 0;
         width: 40vw;
         height: auto;
         position: inherit;
-        display: inline-block;
+        /* display: inline-block; */
         z-index: 1000 !important;
     }
 
