@@ -156,6 +156,32 @@ br {
     margin-bottom: 5vh;
 }
 
+/* STYLES FOR LOADING ICON */
+.loader {
+    border: 16px solid #ffffff;
+    border-radius: 50%;
+    border-top: 16px solid #007bff;
+    width: 10vw;
+    height: 10vw;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    position: fixed;
+    z-index: -1;
+    top: 40vh;
+    left: 45vw;
+  }
+  
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 @media only screen and (max-width: 1055px) {
    
     /* .navbar-brand {
@@ -165,7 +191,7 @@ br {
         text-align: center;
     }
     .appointmentPanel {
-        font-size: xx-large;
+        font-size: 5.2vh;
         margin: 2vh 0;
         width: 70vw;
         position: inherit;
@@ -176,10 +202,13 @@ br {
 
     #textLink,
     #emailLink {
-        font-size: xx-large;
+        font-size: 5vh;
+        line-height: 9vh;
         margin: 2vh 0;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
         width: 50vw;
-        height: 10vh;
+        height: auto;
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
@@ -187,11 +216,15 @@ br {
 
     #openMap,
     #closeMap {
-        font-size: xx-large;
+        font-size: 4.6vh;
         margin: 2vh 0;
         width: 50vw;
-        height: 10vh;
+        height: auto;
         position: inherit;
+    }
+
+    .loader {
+        top: 80vh;
     }
 
 }
