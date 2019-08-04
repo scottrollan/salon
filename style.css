@@ -62,14 +62,10 @@ br {
 #emailLink {
     text-align: center;
     padding: 6.5px;
-    border-radius: 4px;
     background: whitesmoke;
-    font-size: large;
-    height: auto;
     width: 150px;
     color: #c4122f;    
     border: solid .8px #c4122f;
-    border: none;
     margin: 0 0 2vh 0;
 }
 
@@ -183,10 +179,7 @@ br {
 }
 
 @media only screen and (max-width: 1055px) {
-   
-    /* .navbar-brand {
-        display: none;
-    } */
+
     .appointmentWrapper{
         text-align: center;
     }
@@ -205,8 +198,6 @@ br {
         font-size: 5vh;
         line-height: 9vh;
         margin: 2vh 0;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
         width: 50vw;
         height: auto;
         position: inherit;
