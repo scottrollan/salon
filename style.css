@@ -74,6 +74,10 @@ br {
     margin: 0 0 2vh 0;
 }
 
+#textLink {
+    display: none;
+}
+
 #topDiv::after,
 #scheduleLink::after {
     clear: both;
