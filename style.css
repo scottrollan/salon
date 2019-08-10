@@ -42,6 +42,7 @@ body {
     display: inline-block;
     font-weight: 600;
     letter-spacing: .3vw;
+    width: auto;
 }
 
 br {
@@ -191,6 +192,7 @@ br {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
 /******************************************/
 @media only screen and (max-width: 992px) {
     /* .navbar {
@@ -199,6 +201,10 @@ br {
     .navbar-brand {
         /* line-height: 8vw; */
         font-size: 7vw !important;
+    }
+
+    .navbar-nav {
+        font-size: 1vw;
     }
 
     .appointmentWrapper{
