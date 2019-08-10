@@ -204,11 +204,11 @@ br {
     }
     .navbar {
         width: 90vw;
-        font-size: 7vw !important;
     }
     
     .navbar-brand {
         display: inherit;
+        font-size: 7vw !important;
     }
 
     .navbar-nav {
