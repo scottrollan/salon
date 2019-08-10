@@ -193,32 +193,47 @@ br {
     100% { transform: rotate(360deg); }
 }
 
-/******************************************/
-@media only screen and (max-width: 992px) {
-    /* .navbar {
-        min-height: 10vw;
-    } */
-    .navbar-brand {
-        /* line-height: 8vw; */
+
+@media only screen and (max-width: 1024px) {
+    body {
+        padding: 0 4vw;
+    }
+    .navbar {
+        width: 90vw;
         font-size: 7vw !important;
+    }
+    
+    .navbar-brand {
+        display: inherit;
     }
 
     .navbar-nav {
         font-size: 5vw;
     }
 
+    #solaLogo {
+        width: 40vw;
+    }
+
+    .headline {
+        font-size: 5.5vw;
+    }
+    .address {
+        font-size: xx-large;
+        text-decoration: none;
+    }
+
     .appointmentWrapper{
         text-align: center;
     }
     .appointmentPanel {
-        font-size: 5.2vh;
+        font-size: 5vh;
         margin: 2vh 0;
         width: 80vw;
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
     }
-
 
     #textLink,
     #emailLink {
@@ -231,6 +246,19 @@ br {
         display: inline-block;
         z-index: 1000 !important;
     }
+
+    #myth {
+        font-size: 3vw;
+    }
+    .read-more {
+        transform: none;
+    }
+
+    .lead {
+        margin-left: inherit;
+        font-size: 3vw;
+    }
+
     .servicesBtn {
         font-size: 4vh;
         width: 50vw;
@@ -248,43 +276,8 @@ br {
     .loader {
         top: 80vh;
     }
-
 }
-@media only screen and (max-width: 1024px) {
-    body {
-        padding: 0 4vw;
-    }
-    .navbar {
-        width: 90vw;
-    }
-    
-    .navbar-brand {
-        display: inherit;
-    }
 
-    #solaLogo {
-        width: 40vw;
-    }
-
-    .headline {
-        font-size: 5.5vw;
-    }
-    .address {
-        font-size: xx-large;
-        text-decoration: none;
-    }
-    #myth {
-        font-size: 3vw;
-    }
-    .read-more {
-        transform: none;
-    }
-
-    .lead {
-        margin-left: inherit;
-        font-size: 3vw;
-    }
-}
 @media (min-width: 768px) {
     .navbar-nav > li > a {
       /* (80px - line-height of 27px) / 2 = 26.5px */
