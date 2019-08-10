@@ -213,7 +213,7 @@ br {
     .appointmentPanel {
         font-size: 5.2vh;
         margin: 2vh 0;
-        width: 70vw;
+        width: 80vw;
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
@@ -225,7 +225,7 @@ br {
         font-size: 5vh;
         line-height: 9vh;
         margin: 2vh 0;
-        width: 50vw;
+        width: 80vw;
         height: auto;
         position: inherit;
         display: inline-block;
