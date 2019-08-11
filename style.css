@@ -1,5 +1,6 @@
 html {
     overflow: scroll;
+    background: #4c4c4c;
 }
 
 body {
@@ -7,7 +8,7 @@ body {
     padding: 2vh 15vw 3vh 15vw;
     background: #4c4c4c;
     background-image: linear-gradient(to bottom right,#4c4c4c, #7b7b7b);
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 .navbar {
     font-size: 28px;
@@ -204,6 +205,7 @@ br {
     }
     .navbar {
         width: 90vw;
+        margin: 2vh 0;
     }
     
     .navbar-brand {
