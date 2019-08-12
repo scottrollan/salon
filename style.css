@@ -9,7 +9,7 @@ body {
     background-image: linear-gradient(to bottom right,#4c4c4c, #7b7b7b);
     min-height: 100%;
     height: auto !important;
-    overflow: scroll;
+    overflow: auto;
 }
 .navbar {
     font-size: 28px;
@@ -235,7 +235,7 @@ br {
         text-align: center;
     }
     .appointmentPanel {
-        font-size: 5vh;
+        font-size: 4.5vh;
         margin: 2vh 0;
         width: 80vw;
         position: inherit;
