@@ -105,6 +105,7 @@ br {
 .jumbotron {
     padding: 2vh 4vw 2vh 0;
     overflow: hidden;
+    height: auto;
 }
 #myth {
     color: #007bff !important;
@@ -130,7 +131,7 @@ br {
   padding: .5vw;
   font-weight: 700;
   margin-top: 1vw;
-  transform: translateX(40vw);
+  transform: translateX(-10vw); 
 }
 .read-more:hover {
     background: #777777;
