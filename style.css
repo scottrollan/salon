@@ -1,8 +1,8 @@
-html {
+/* html {
     height :100%;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-}
+} */
 body {
     font-family: 'Exo 2', sans-serif;
     padding: 2vh 15vw 3vh 15vw;
