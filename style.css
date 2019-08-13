@@ -7,8 +7,7 @@ body {
     padding: 2vh 15vw 3vh 15vw;
     background: #4c4c4c;
     background-image: linear-gradient(to bottom right,#4c4c4c, #7b7b7b);
-    min-height: 100%;
-    height: auto !important;
+    min-height: 100vh;
     overflow: auto;
 }
 .navbar {
@@ -208,6 +207,7 @@ br {
     .navbar {
         width: 90vw;
         margin: 2vh 0;
+        padding: 2vh 0;
     }
     
     .navbar-brand {
@@ -216,7 +216,7 @@ br {
     }
 
     .navbar-nav {
-        font-size: 5vw;
+        font-size: 6vw;
     }
 
     #solaLogo {
@@ -235,7 +235,7 @@ br {
         text-align: center;
     }
     .appointmentPanel {
-        font-size: 4.5vh;
+        font-size: 7vw;
         margin: 2vh 0;
         width: 80vw;
         position: inherit;
@@ -245,7 +245,7 @@ br {
 
     #textLink,
     #emailLink {
-        font-size: 5vh;
+        font-size: 6vw;
         line-height: 9vh;
         margin: 2vh 0;
         width: 80vw;
@@ -268,13 +268,13 @@ br {
     }
 
     .servicesBtn {
-        font-size: 4vh;
+        font-size: 5vw;
         width: 50vw;
     }
 
     #openMap,
     #closeMap {
-        font-size: 4.6vh;
+        font-size: 6vw;
         margin: 2vh 0;
         width: 50vw;
         height: auto;
