@@ -126,21 +126,9 @@ br {
 
 #seeMore,
 #seeLess {
-  background: #c4122f;
-  box-shadow: none;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  color: whitesmoke;
-  padding: .5vw;
-  font-weight: 700;
-  margin-top: 1vw;
   float: right;
 }
-#seeMore:hover,
-#seeLess:hover {
-    background: #440b15;
-}
+
 .reveal {
     display: none;
 }
@@ -265,10 +253,6 @@ br {
     #myth {
         font-size: 3vw;
     }
-    .read-more {
-        transform: none;
-    }
-
     .lead {
         margin-left: inherit;
         font-size: 3vw;
@@ -286,6 +270,14 @@ br {
         width: 50vw;
         height: auto;
         position: inherit;
+    }
+
+    #seeMore,
+    #seeLess {
+        width: auto;
+        height: auto;
+        padding: 1vh 2vw;
+        font-size: 4vw;
     }
 
     .loader {
