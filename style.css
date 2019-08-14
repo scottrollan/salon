@@ -46,6 +46,7 @@ body {
     font-weight: 600;
     letter-spacing: .3vw;
     width: auto;
+    cursor: pointer;
 }
 
 br {
@@ -75,6 +76,7 @@ br {
     color: #c4122f;    
     border: solid .8px #c4122f;
     margin: 0 0 2vh 0;
+    cursor: pointer;
 }
 
 #textLink {
@@ -122,7 +124,8 @@ br {
     padding-bottom: 1vh;
 }
 
-.read-more {
+#seeMore,
+#seeLess {
   background: #c4122f;
   box-shadow: none;
   border: none;
@@ -132,13 +135,15 @@ br {
   padding: .5vw;
   font-weight: 700;
   margin-top: 1vw;
-  transform: translateX(-10vw); 
+  float: right;
 }
-.read-more:hover {
-    background: #777777;
-    color: #2996cc;
+#seeMore:hover,
+#seeLess:hover {
+    background: #440b15;
 }
-
+.reveal {
+    display: none;
+}
 .omLogo {
     width: 30%;
     float: left;
