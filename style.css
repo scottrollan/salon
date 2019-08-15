@@ -15,7 +15,7 @@ body {
 .navbar {
     font-size: 28px;
     min-height: 80px;
-    width: 70vw;
+    /* width: 70vw; */
 }
 
 .navbar-brand {
@@ -73,6 +73,7 @@ br {
     padding: 6.5px;
     background: whitesmoke;
     width: 150px;
+    font-size: 20px;
     color: #c4122f;    
     border: solid .8px #c4122f;
     margin: 0 0 2vh 0;
@@ -135,7 +136,11 @@ br {
 .omLogo {
     width: 30%;
     float: left;
+}
+.fromBarry {
+    float: left;
     font-size: 4vw;
+    max-width: 30%;
 }
 
 .lead {
@@ -197,21 +202,27 @@ br {
 
 @media only screen and (max-width: 1024px) {
     body {
-        padding: 0 4vw;
+        padding: 0 10vw;
     }
     .navbar {
-        width: 90vw;
+        width: 100vw;
         margin: 2vh 0;
-        padding: 2vh 0;
+        padding: 2vh 10vw;
+        transform: translateX(-10vw);
     }
     
     .navbar-brand {
         display: inherit;
         font-size: 7vw !important;
+        margin: 0 0 0 0 !important;
+        padding: 0 0 0 0 !important;
+        transform: translateX(-5vw);
+
     }
 
     .navbar-nav {
         font-size: 6vw;
+        margin-top: 1vh;
     }
 
     #solaLogo {
@@ -232,7 +243,7 @@ br {
     .appointmentPanel {
         font-size: 7vw;
         margin: 2vh 0;
-        width: 80vw;
+        width: 100%;
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
@@ -243,7 +254,7 @@ br {
         font-size: 6vw;
         line-height: 9vh;
         margin: 2vh 0;
-        width: 80vw;
+        width: 100%;
         height: auto;
         position: inherit;
         display: inline-block;
@@ -285,11 +296,3 @@ br {
     }
 }
 
-@media (min-width: 768px) {
-    .navbar-nav > li > a {
-      /* (80px - line-height of 27px) / 2 = 26.5px */
-      padding-top: 26.5px;
-      padding-bottom: 26.5px;
-      line-height: 27px;
-    }
-}
