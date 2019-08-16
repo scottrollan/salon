@@ -15,7 +15,7 @@ body {
 .navbar {
     font-size: 28px;
     min-height: 80px;
-    /* width: 70vw; */
+    width: 100%;
 }
 
 .navbar-brand {
@@ -65,6 +65,7 @@ br {
     z-index: 1000;
     top: 84vh;
     left: 2vw;
+    width: 13vw;
 }
 
 #textLink,
@@ -117,6 +118,7 @@ br {
 }
 .jumbotron,
 .carousel {
+    width: 100%;
     margin: 0 0 3vh 0; 
     border-radius: 2vw; 
 }
@@ -205,10 +207,9 @@ br {
         padding: 0 10vw;
     }
     .navbar {
-        width: 100vw;
+        width: 100%;
         margin: 2vh 0;
         padding: 2vh 10vw;
-        transform: translateX(-10vw);
     }
     
     .navbar-brand {
