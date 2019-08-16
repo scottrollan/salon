@@ -11,26 +11,12 @@ body {
     min-height: 100vh;
     height :100%;
     overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;}
-.navbar {
-    font-size: 28px;
-    min-height: 80px;
-    width: 100%;
-}
-/*
-.navbar-brand {
-    padding: 0 15px;
-    height: 80px;
-    line-height: 80px;
-    font-size: 30px !important;
-    color: #007bff !important;
+    -webkit-overflow-scrolling: touch;
 }
 
-.navbar-toggle {
-    (80px - button height 34px) / 2 = 23px 
-    margin-top: 23px;
-    padding: 9px 10px !important;
-}. */
+.navbar {
+    width: 100%;
+}
 
 .appointmentPanel {
     position: fixed;
@@ -210,15 +196,6 @@ br {
         width: 100%;
         margin: 2vh 0;
         padding: 2vh 10vw;
-    }
-    
-    .navbar-brand {
-        display: inherit;
-        font-size: 7vw !important;
-        margin: 0 0 0 0 !important;
-        padding: 0 0 0 0 !important;
-        transform: translateX(-5vw);
-
     }
 
     .navbar-nav {
