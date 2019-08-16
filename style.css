@@ -225,6 +225,10 @@ br {
         position: inherit;
         display: inline-block;
         z-index: 1000 !important;
+        background-color: #c3122f;
+        text-align: center;
+        color: whitesmoke;
+        text-transform: uppercase;
     }
 
     #textLink,
