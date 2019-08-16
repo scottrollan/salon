@@ -16,6 +16,9 @@ body {
 
 .navbar {
     width: 100%;
+}
+
+.navbar-brand {
     font-size: 4vw;
 }
 
