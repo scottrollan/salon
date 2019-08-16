@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-brand {
-    font-size: 6vw !important;
+    font-size: 4.5vw !important;
 }
 
 .appointmentPanel {
@@ -207,6 +207,10 @@ br {
         margin-top: 1vh;
     }
 
+    .navbar-brand {
+        font-size: 6vw;
+    }
+    
     #solaLogo {
         width: 40vw;
     }
