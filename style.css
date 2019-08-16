@@ -17,7 +17,7 @@ body {
     min-height: 80px;
     width: 100%;
 }
-
+/*
 .navbar-brand {
     padding: 0 15px;
     height: 80px;
@@ -30,7 +30,7 @@ body {
     /* (80px - button height 34px) / 2 = 23px */
     margin-top: 23px;
     padding: 9px 10px !important;
-}
+}. */
 
 .appointmentPanel {
     position: fixed;
