@@ -210,6 +210,10 @@ br {
     .navbar-brand {
         font-size: 6vw;
     }
+
+    .navbar-toggle {
+        height: 100%;
+    }
     
     #solaLogo {
         width: 40vw;
