@@ -167,17 +167,17 @@ br {
 
 /* STYLES FOR LOADING ICON */
 .loader {
-    border: 16px solid #ffffff;
+    border: 10px solid #ffffff;
     border-radius: 50%;
-    border-top: 16px solid #007bff;
-    width: 10vw;
-    height: 10vw;
+    border-top: 10px solid #007bff;
+    width: 14vw;
+    height: 14vw;
     -webkit-animation: spin 2s linear infinite; /* Safari */
     animation: spin 2s linear infinite;
     position: fixed;
     z-index: -1;
     top: 40vh;
-    left: 45vw;
+    left: 43vw;
   }
   
   /* Safari */
@@ -286,7 +286,7 @@ br {
     }
 
     .loader {
-        top: 80vh;
+        top: 40vh;
     }
 }
 
